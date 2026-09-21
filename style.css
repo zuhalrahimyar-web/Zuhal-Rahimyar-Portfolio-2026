@@ -24,7 +24,7 @@ body {
 
     position: relative;
 
-    background-image: url("images/hearo.jpeg");
+    background-image: url("Images/hearo.jpeg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,11 +32,11 @@ body {
     color: white;
 }
 
-/* 
+
 Dark overlay
 
 .hero::before {
-    content: "";
+    /* content: ""; */
 
     position: absolute;
     inset: 0;
@@ -44,7 +44,7 @@ Dark overlay
     background: rgba(0, 0, 0, 0.25);
 
     z-index: 0;
-} */
+}
 
 
 /* =========================
